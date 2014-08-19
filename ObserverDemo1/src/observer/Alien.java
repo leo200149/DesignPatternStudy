@@ -2,7 +2,7 @@ package observer;
 
 import base.Observer;
 /**
- * ¥~¬P¤H
+ * å¤–æ˜Ÿäºº
  * @author Leo_Chen
  *
  */

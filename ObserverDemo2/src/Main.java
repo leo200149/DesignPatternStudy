@@ -7,7 +7,7 @@ import observer.Superman;
 import subject.WorldSubject;
 
 /**
- * ´ú¸Õ(¨Ï¥Îjava´£¨ÑªºÆ[¹îªÌ)
+ * æ¸¬è©¦(ä½¿ç”¨javaæä¾›çš„è§€å¯Ÿè€…)
  * @author Leo_Chen
  *
  */
@@ -15,37 +15,37 @@ public class Main {
     
     public static void main(String[] args){
         /*
-         * ¥@¬É
+         * ä¸–ç•Œ
          */
         WorldSubject world = new WorldSubject();
         /*
-         * ¶W¤H­Ì
+         * è¶…äººå€‘
          */
         Superman superman = new Superman();
         Spiderman spiderman = new Spiderman();
         Ironman ironman = new Ironman();
         Alien alien = new Alien();
         /*
-         * ¸ò¥@¬Éµù¥U¬°­^¶¯¡A·í¦³¨Æ¥óµo¥Í®É¥@¬É·|³qª¾¥L­Ì¡C
+         * è·Ÿä¸–ç•Œè¨»å†Šç‚ºè‹±é›„ï¼Œç•¶æœ‰äº‹ä»¶ç™¼ç”Ÿæ™‚ä¸–ç•Œæœƒé€šçŸ¥ä»–å€‘ã€‚
          */
         registHeroAndBadMan(world,superman);
         registHeroAndBadMan(world,spiderman);
         registHeroAndBadMan(world,ironman);
         registHeroAndBadMan(world,alien);
         /*
-         * ¥@¬Éµo¥Í¤F¨Æ¥ó
+         * ä¸–ç•Œç™¼ç”Ÿäº†äº‹ä»¶
          */
         world.haveProblem("Snooppy is too Fat!");
         world.haveProblem("Andy's toys disappear!");
         world.haveProblem("Bomb!!AAAAAAAAA!");
         
         /*
-         * ¿ûÅK¤HGG¤F
+         * é‹¼éµäººGGäº†
          */
         manDied(world,ironman);
 
         /*
-         * ¥@¬Éµo¥Í¤F¨Æ¥ó
+         * ä¸–ç•Œç™¼ç”Ÿäº†äº‹ä»¶
          */
         world.haveProblem("God! please help me!");
     }

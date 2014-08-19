@@ -4,7 +4,7 @@ import java.util.Observable;
 import java.util.Observer;
 
 /**
- * ¥~¬P¤H
+ * å¤–æ˜Ÿäºº
  * @author Leo_Chen
  *
  */

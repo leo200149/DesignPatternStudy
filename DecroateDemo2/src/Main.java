@@ -15,7 +15,7 @@ public class Main {
 		 */
 		InputStream in = new BufferedInputStream(new DataInputStream(System.in));
 		/**
-		 * write to the standard output. ¡@¡@
+		 * write to the standard output.
 		 */
 		OutputStream out = new DoubleOutputStream(new DataOutputStream(
 				System.out));

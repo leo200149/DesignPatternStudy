@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.OutputStream;
 
 /**
- * A new output stream, which will check the space character and won¡¦t write it
+ * A new output stream, which will double write character
  * to the output stream.
  * 
  * @author Magic

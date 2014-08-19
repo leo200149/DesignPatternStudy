@@ -7,7 +7,7 @@ import base.Observer;
 import base.Subject;
 
 /**
- * ¥@¬É (³QÆ[¹îªÌ)
+ * ä¸–ç•Œ(ä¸»é¡Œ)
  * 
  * @author Leo_Chen
  * 
@@ -38,7 +38,7 @@ public class WorldSubject implements Subject {
     }
 
     /**
-     * ¦³¨Æ¥óµo¥Í¡A´£¿ô©Ò¦³Æ[¹îªÌ
+     * æœ‰ç‹€æ³
      * 
      * @param message
      */

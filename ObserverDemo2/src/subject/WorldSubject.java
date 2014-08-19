@@ -4,7 +4,7 @@ import java.util.Observable;
 
 
 /**
- * ¥@¬É (³QÆ[¹îªÌ)
+ * ä¸–ç•Œ(ä¸»é¡Œ)
  * 
  * @author Leo_Chen
  * 
@@ -15,7 +15,7 @@ public class WorldSubject extends Observable {
     private String message;
 
     /**
-     * ¦³¨Æ¥óµo¥Í¡A´£¿ô©Ò¦³Æ[¹îªÌ
+     * æœ‰ç‹€æ³
      * 
      * @param message
      */

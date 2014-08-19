@@ -2,8 +2,8 @@ package observer;
 
 import base.Observer;
 /**
- * ¶W¤H
- * @author admin
+ * è¶…äºº
+ * @author Leo_Chen
  *
  */
 public class Superman implements Observer {

@@ -4,8 +4,8 @@ import java.util.Observable;
 import java.util.Observer;
 
 /**
- * ¶W¤H
- * @author admin
+ * è¶…äºº
+ * @author Leo_Chen
  *
  */
 public class Superman implements Observer {

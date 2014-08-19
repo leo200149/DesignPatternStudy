@@ -1,13 +1,13 @@
 package base;
 
 /**
- * Æ[¹îªÌ
+ * è§€å¯Ÿè€…
  * @author Leo_Chen
  *
  */
 public interface Observer{
     /**
-     * ±µ¦¬³qª¾
+     * æŽ¥æ”¶é€šçŸ¥
      * @param message
      */
     public void receiveNotify(String message);

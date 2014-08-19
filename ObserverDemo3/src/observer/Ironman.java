@@ -6,7 +6,7 @@ import java.util.Observer;
 import subject.WorldSubject;
 
 /**
- * ¿ûÅK¤H
+ * é‹¼éµäºº
  * @author Leo_Chen
  *
  */

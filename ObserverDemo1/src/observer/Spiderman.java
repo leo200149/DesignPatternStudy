@@ -2,8 +2,8 @@ package observer;
 
 import base.Observer;
 /**
- * »jµï¤H
- * @author admin
+ * èœ˜è››äºº
+ * @author Leo_Chen
  *
  */
 public class Spiderman implements Observer{

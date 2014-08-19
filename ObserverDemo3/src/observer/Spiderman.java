@@ -6,8 +6,8 @@ import java.util.Observer;
 import subject.WorldSubject;
 
 /**
- * »jµï¤H
- * @author admin
+ * èœ˜è››äºº
+ * @author Leo_Chen
  *
  */
 public class Spiderman implements Observer{

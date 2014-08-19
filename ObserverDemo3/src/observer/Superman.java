@@ -6,8 +6,8 @@ import java.util.Observer;
 import subject.WorldSubject;
 
 /**
- * ¶W¤H
- * @author admin
+ * è¶…äºº
+ * @author Leo_Chen
  *
  */
 public class Superman implements Observer {

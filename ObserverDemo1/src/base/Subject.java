@@ -1,7 +1,7 @@
 package base;
 
 /**
- * ³QÆ[¹îªÌ(¥DÃD)
+ * è¢«è§€å¯Ÿè€…(ä¸»é¡Œ)
  * 
  * @author Leo_Chen
  * 
@@ -9,17 +9,17 @@ package base;
 public interface Subject {
 
     /**
-     * µù¥UÆ[¹îªÌ
+     * è¨»å†Šè§€å¯Ÿè€…
      */
     public void registOberserver(Observer observer);
 
     /**
-     * ²¾°£Æ[¹îªÌ
+     * ç§»é™¤è§€å¯Ÿè€…
      */
     public void removeOberserver(Observer observer);
 
     /**
-     * ´£¿ô©Ò¦³Æ[¹îªÌ
+     * æé†’æ‰€æœ‰è§€å¯Ÿè€…
      */
     public void notifyAllOberserver();
 }
