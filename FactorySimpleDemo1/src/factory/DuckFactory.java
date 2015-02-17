@@ -10,14 +10,14 @@ import item.SuperDuck;
  * @author Leo_Chen
  *
  */
-public class SimpleDuckFactory {
+public class DuckFactory {
 	
 	/**
 	 * 取得鴨子
 	 * @param event
 	 * @return
 	 */
-	public Duck getDuck(EVENT event){
+	public static Duck getDuck(EVENT event){
 		Duck duck = null;
 		if(event ==EVENT.HELP){
 			duck = new SuperDuck();

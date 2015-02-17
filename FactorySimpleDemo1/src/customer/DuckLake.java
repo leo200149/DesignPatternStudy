@@ -1,7 +1,7 @@
 package customer;
 
-import factory.SimpleDuckFactory;
-import factory.SimpleDuckFactory.EVENT;
+import factory.DuckFactory;
+import factory.DuckFactory.EVENT;
 import item.Duck;
 import item.NormalDuck;
 import item.PetDuck;
@@ -34,12 +34,11 @@ public class DuckLake {
 	public void createDuckLack() {
 		ducks = new ArrayList<Duck>();
 		ducks.add(getDuck(EVENT.NORMAL));
-		SimpleDuckFactory duckFactory = new SimpleDuckFactory();
 		for(int i=0;i<10;i++){
-			ducks.add(duckFactory.getDuck(EVENT.NORMAL));
+			ducks.add(DuckFactory.getDuck(EVENT.NORMAL));
 		}
-		ducks.add(duckFactory.getDuck(EVENT.HELP));
-		ducks.add(duckFactory.getDuck(EVENT.PET));
+		ducks.add(DuckFactory.getDuck(EVENT.HELP));
+		ducks.add(DuckFactory.getDuck(EVENT.PET));
 	}
 	
 	/**
